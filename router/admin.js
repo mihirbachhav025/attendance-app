@@ -9,6 +9,9 @@ router.route('/login').get((req,res)=>res.render("login"));
 
 router.route('/home').get((req,res)=>res.render("index"));
 
+router.route('/').get((req,res)=>res.render("index"));
+
+
 //--------------------------------------------------------------------------------------------------//
 
 const {
